@@ -9,8 +9,6 @@ def cost_delivery(quantity, *_, discount=0):
     return price
 
 
-print(cost_delivery.__doc__)
-
 print(cost_delivery(2, 1, 2, 3))
 print(cost_delivery(3, 3))
 print(cost_delivery(1))
